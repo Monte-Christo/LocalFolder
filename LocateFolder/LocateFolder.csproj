@@ -204,11 +204,11 @@
     </Content>
     <Content Include="Resources\LocateFolderCmd.png" />
     <Content Include="Resources\LocateFolderCmdPackage.ico" />
-    <Content Include="Resources\open.ico">
+    <Content Include="Resources\Preview.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Resources\Preview.png">
+    <Content Include="source.extension.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
