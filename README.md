@@ -19,11 +19,11 @@ See the [change log](CHANGELOG.md) for changes and road map.
 
 ### Feature 1
 Describe feature 1. Add screenshots/code samples etc.
-![Open](images/file1.png)
+![Open](images/openitem.png)
 
 ### Feature 2
 Describe feature 2. Add screenshots/code samples etc.
-![Whatever](images/file2.png)
+![Whatever](images/whatever.png)
 
 #### Sub feature
 Describe sub feature. Add screenshots/code samples etc.
