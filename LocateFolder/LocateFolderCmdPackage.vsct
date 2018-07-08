@@ -75,13 +75,11 @@
   <Symbols>
     <!-- This is the package guid. -->
     <GuidSymbol name="guidLocateFolderCmdPackage" value="{a3dc7eb8-9500-4313-9e35-e3c7878114ec}" />
-
     <!-- This is the guid used to group the menu commands together -->
     <GuidSymbol name="guidLocateFolderCmdPackageCmdSet" value="{4b1b60f4-3cf6-42c9-b1e5-dc2931e5cb3a}">
       <IDSymbol name="MyMenuGroup" value="0x1020" />
       <IDSymbol name="LocateFolderCmdId" value="0x0100" />
     </GuidSymbol>
-
     <GuidSymbol name="guidImages" value="{1e2defd0-1ace-4664-b110-b3e180af43e0}" >
       <IDSymbol name="bmpPic1" value="1" />
     </GuidSymbol>

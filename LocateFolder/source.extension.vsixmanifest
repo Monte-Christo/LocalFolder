@@ -4,6 +4,9 @@
     <Identity Id="48d3bf5a-f247-4587-ab35-d47a1aff2add" Version="1.0" Language="en-US" Publisher="Edgar Knapp" />
     <DisplayName>LocateFolder</DisplayName>
     <Description xml:space="preserve">Locate Files and Fiolders in Windows Explorer</Description>
+    <License>LICENSE.txt</License>
+    <Icon>open.ico</Icon>
+    <PreviewImage>Preview.png</PreviewImage>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
