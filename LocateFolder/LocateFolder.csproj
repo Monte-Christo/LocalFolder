@@ -61,6 +61,11 @@
     <Compile Include="LocateFile.cs" />
     <Compile Include="LocateFolderCmd.cs" />
     <Compile Include="LocateFolderCmdPackage.cs" />
+    <Compile Include="LocateFolderCmdPackage1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocateFolderCmdPackage.vsct</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="source.extension.cs">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
@@ -194,6 +199,8 @@
   <ItemGroup>
     <VSCTCompile Include="LocateFolderCmdPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
+      <Generator>VsctGenerator</Generator>
+      <LastGenOutput>LocateFolderCmdPackage1.cs</LastGenOutput>
     </VSCTCompile>
   </ItemGroup>
   <ItemGroup>
