@@ -23,7 +23,7 @@ Describe feature 1. Add screenshots/code samples etc.
 
 ### Feature 2
 Describe feature 2. Add screenshots/code samples etc.
-![File2](images/file2.png)
+![Whatever](images/file2.png)
 
 #### Sub feature
 Describe sub feature. Add screenshots/code samples etc.
