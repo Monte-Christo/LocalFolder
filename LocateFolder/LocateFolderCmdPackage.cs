@@ -1,16 +1,8 @@
-﻿using System;
-using System.ComponentModel.Design;
-using System.Diagnostics;
+﻿using Microsoft.VisualStudio.Shell;
+using System;
 using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio;
-using Microsoft.VisualStudio.OLE.Interop;
-using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.Win32;
 using Task = System.Threading.Tasks.Task;
 
 namespace LocateFolder
@@ -43,17 +35,6 @@ namespace LocateFolder
     /// LocateFolderCmdPackage GUID string.
     /// </summary>
     public const string PackageGuidString = "a3dc7eb8-9500-4313-9e35-e3c7878114ec";
-
-    /// <summary>
-    /// Initializes a new instance of the <see cref="LocateFolderCmd"/> class.
-    /// </summary>
-    public LocateFolderCmdPackage()
-    {
-      // Inside this method you can place any initialization code that does not require
-      // any Visual Studio service because at this point the package object is created but
-      // not sited yet inside Visual Studio environment. The place to do all the other
-      // initialization is the Initialize method.
-    }
 
     #region Package Members
 
