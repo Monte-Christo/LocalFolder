@@ -8,7 +8,7 @@ or get the [CI build](http://vsixgallery.com/extension/48d3bf5a-f247-4587-ab35-d
 
 ---------------------------------------
 
-Locate Files and Fiolders in Windows Explorer
+Locate Files and Folders in Windows Explorer
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
